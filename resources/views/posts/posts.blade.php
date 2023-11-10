@@ -19,9 +19,7 @@
             <div class="card mb-3">
                 @if ($posts[0]->image)
           <img src="{{ asset('storage/'. $posts[0]->image ) }}" alt="">
-          @else
-          <img src="https://source.unsplash.com/1400x400?{{ $post->category->name }}" class="card-img-top img-fluid"
-              alt="...">
+          
           @endif
                 <div class="card-body text-center">
                     <h3 class="card-title">
